@@ -11,7 +11,10 @@ print(f'Macierz a: {a}\nMacierz b: {b}\nPo wykonaniu operacji mnozenia: {c}')
 
 d = np.array([[2, 3, 5], [6, 7, 2], [3, 8, 9]])
 e = np.array([[2, 3, 5, 6], [6, 6, 7, 2], [3, 7, 8, 9], [1, 1, 4, 6]])
-
+print((np.amin(d, axis=1)))
+print((np.amin(d, axis=0)))
+print((np.amin(e, axis=1)))
+print((np.amin(e, axis=0)))
 
 # Zad 3
 
@@ -38,3 +41,16 @@ a = np.sin(np.array([[45, 60, 30],
 print(a)
 
 # Zad 6
+
+b = np.cos(np.array([[45, 60, 30],
+              [90, 0, 30]]))
+
+print(b)
+
+# Zad 7
+
+c = np.add(a, b)
+
+print(c)
+
+# Zad 8
